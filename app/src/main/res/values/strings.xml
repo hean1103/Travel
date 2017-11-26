@@ -13,4 +13,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <string name="action_search">search</string>
+    <string name="recent_travel_location">최근 여행지</string>
+    <string name="location">서초구 / 서울시 / 대한민국</string>
 </resources>
