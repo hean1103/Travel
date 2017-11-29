@@ -7,9 +7,9 @@
     android:background="@drawable/select">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="130dp"
         tools:ignore="MissingConstraints">
 
@@ -24,10 +24,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="171dp"
         tools:context="org.androidtown.travel.SelectActivity"
         tools:ignore="MissingConstraints">
@@ -45,9 +44,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="216dp"
         tools:ignore="MissingConstraints">
 
@@ -59,10 +58,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="278dp">
 
         <TextView
@@ -75,9 +74,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="334dp">
 
         <Spinner

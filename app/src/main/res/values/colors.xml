@@ -4,4 +4,11 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="gray">#888888</color>
+
+    <color name="colorRadioRed">#FF0000</color>
+    <color name="colorRadioYellow">#fcd20b</color>
+    <color name="colorRadioGreen">#008000</color>
+    <color name="colorRadioBlue">#0000cd</color>
+    <color name="colorRadioBlack">#000000</color>
+    <color name="colorRadioViolet">#9932cc</color>
 </resources>
