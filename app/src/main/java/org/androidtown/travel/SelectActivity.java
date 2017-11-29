@@ -27,26 +27,26 @@ public class SelectActivity extends AppCompatActivity{
         setView();
     }
 
-    private void setView(){
+    private void setView() {
         categoryList = new ArrayList();
         categoryList.add("대한민국");
 
-    }
 
-    ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, categoryList);
+        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, categoryList);
 
-        categorySpinner = (Spinner)findViewById(R.id.spinner1);
+        categorySpinner = (Spinner) findViewById(R.id.spinner1);
         categorySpinner.setPrompt("골라주세요.");
         categorySpinner.setAdapter(adapter);
         categorySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
-        @Override
-        public void onItemSelected(AdapterView arg0, View arg1, int arg2, long arg3) {
-        }
+            @Override
+            public void onItemSelected(AdapterView arg0, View arg1, int arg2, long arg3) {
+            }
 
-        @Override
-        public void onNothingSelected(AdapterView arg0) {
+            @Override
+            public void onNothingSelected(AdapterView arg0) {
 
-        }
-    });
+            }
+        });
+    }
 }
