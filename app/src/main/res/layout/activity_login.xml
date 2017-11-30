@@ -71,16 +71,57 @@
                     android:singleLine="true" />
 
             </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
-                android:layout_gravity="right"
-                android:textStyle="bold" />
+                <Button
+                    android:id="@+id/face"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/facebook"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/twitter"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/twitter"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/kakao"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/kakao"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/email_button"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/action_register"
+                    android:layout_gravity="right"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/sign_in_button"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/action_sign_in"
+                    android:layout_gravity="right"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
