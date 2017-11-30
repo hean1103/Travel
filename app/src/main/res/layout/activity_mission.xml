@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
+<<<<<<< HEAD
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+=======
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+>>>>>>> eb465e870247e8a08f2b581f75c585fce16d479b
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/mission">
         <TextView
             android:layout_width="wrap_content"
+<<<<<<< HEAD
             android:layout_height="wrap_content"
             android:text="내 미션 페이지"
             android:textSize="30dp"
@@ -31,5 +38,11 @@
         </LinearLayout>
 
 
+=======
+            android:layout_height="match_parent"
+            android:text="내 미션 페이지"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+>>>>>>> eb465e870247e8a08f2b581f75c585fce16d479b
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
