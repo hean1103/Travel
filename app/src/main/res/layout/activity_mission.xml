@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
-<<<<<<< HEAD
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-=======
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
->>>>>>> eb465e870247e8a08f2b581f75c585fce16d479b
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/mission">
         <TextView
             android:layout_width="wrap_content"
-<<<<<<< HEAD
             android:layout_height="wrap_content"
             android:text="내 미션 페이지"
             android:textSize="30dp"
@@ -28,21 +22,94 @@
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:background="@drawable/backs"
-        android:layout_marginTop="54dp">
+        android:layout_marginTop="60dp">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="179dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="나의 경로"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="인사동 \n쌈짓길"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="55dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="청계천"
+                android:textSize="18dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="55dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="통인시장"
+                android:textSize="18dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="경복궁"
+                android:textSize="18dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginLeft="55dp"/>
+
+
         </LinearLayout>
 
-
-=======
+        <LinearLayout
+            android:layout_width="203dp"
             android:layout_height="match_parent"
-            android:text="내 미션 페이지"
-            android:textColor="#ffffff"
-            android:textSize="30dp"/>
->>>>>>> eb465e870247e8a08f2b581f75c585fce16d479b
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:text="나의 미션"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/mission1" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mission2" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/mission3b" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mission4b" />
+        </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
