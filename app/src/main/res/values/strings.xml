@@ -4,13 +4,12 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
-<<<<<<< HEAD
+
     <string name="action_register">register</string>
     <string name="action_sign_in">sign_in</string>
-=======
-    <string name="action_sign_in">register</string>
+    <string name="action_sign_in2">register</string>
     <string name="sign_in">sign-in</string>
->>>>>>> eb465e870247e8a08f2b581f75c585fce16d479b
+
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
