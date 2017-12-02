@@ -98,7 +98,7 @@ public class SelectActivity extends AppCompatActivity{
 
         subcitySpinner = (Spinner) findViewById(R.id.spinner3);
         subcitySpinner.setPrompt("지역 정하기");
-        subcitySpinner.setAdapter(adapter2);
+        subcitySpinner.setAdapter(adapter3);
         subcitySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
