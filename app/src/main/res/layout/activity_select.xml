@@ -7,8 +7,10 @@
     android:background="@drawable/select">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,7 +26,9 @@
     <LinearLayout
         android:layout_width="368dp"
         android:layout_height="wrap_content"
-        tools:context="org.androidtown.travel.SelectActivity">
+        tools:context="org.androidtown.travel.SelectActivity"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
 
         <Spinner
             android:id="@+id/spinner1"
@@ -44,8 +48,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
 
         <Spinner
             android:id="@+id/spinner3"
@@ -57,8 +63,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,8 +79,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
 
         <Spinner
             android:id="@+id/spinner4"
@@ -84,9 +94,11 @@
             />
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|right">
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="bottom|right"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
