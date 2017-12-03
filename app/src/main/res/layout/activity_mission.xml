@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:text="인사동 \n쌈짓길"
                 android:textSize="18dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginLeft="55dp"/>
 
             <TextView
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:text="청계천"
                 android:textSize="18dp"
-                android:layout_marginTop="65dp"
+                android:layout_marginTop="95dp"
                 android:layout_marginLeft="55dp"/>
 
             <TextView
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:text="통인시장"
                 android:textSize="18dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="95dp"
                 android:layout_marginLeft="50dp"/>
 
             <TextView
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:text="경복궁"
                 android:textSize="18dp"
-                android:layout_marginTop="85dp"
+                android:layout_marginTop="95dp"
                 android:layout_marginLeft="55dp"/>
 
 
@@ -85,29 +85,32 @@
                 android:textSize="20dp" />
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="80dp"
-                android:layout_marginLeft="60dp"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/mission1" />
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="80dp"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="20dp"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="17dp"
                 android:background="@drawable/mission2" />
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="80dp"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="24dp"
+                android:id="@+id/image1"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/mission3b" />
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="80dp"
-                android:layout_marginLeft="58dp"
+                android:id="@+id/image2"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="75dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/mission4b" />
         </LinearLayout>
