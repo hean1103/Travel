@@ -18,7 +18,13 @@
         completions."
     </string>
 
+    <string name="coupon">쿠폰함 </string>
+    <string name="mycoupon"> 보유 쿠폰 </string>
+    <string name="location_name"> > 종로구 진행상황 </string>
     <string name="action_search">search</string>
     <string name="recent_travel_location">최근 여행지</string>
     <string name="location">서초구 / 서울시 / 대한민국</string>
+
+    <string name="starbucks1">Starbucks 아메리카노 R</string>
+    <string name="starbucks_exp">유효기간 : ~ 2018.01.02</string>
 </resources>

@@ -11,4 +11,5 @@
     <color name="colorRadioBlue">#0000cd</color>
     <color name="colorRadioBlack">#000000</color>
     <color name="colorRadioViolet">#9932cc</color>
+    <color name="colorWhite">#ffffff</color>
 </resources>
