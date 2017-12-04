@@ -28,7 +28,7 @@
             <!--</intent-filter>-->
         </activity>
         <activity android:name=".MyCouponActivity" />
-        <activity android:name=".TabActivity" />
+        <activity android:name=".TabsActivity" />
         <activity android:name=".DropMapActivity">
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -44,16 +44,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MissionActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-        <activity android:name=".TabsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+                <!--<action android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
         </activity>
     </application>
 
