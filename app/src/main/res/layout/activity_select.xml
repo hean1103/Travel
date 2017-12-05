@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/select">
+    android:background="@drawable/select"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,54 +23,48 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="368dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="org.androidtown.travel.SelectActivity"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp">
+        tools:context="org.androidtown.travel.SelectActivity">
 
         <Spinner
             android:id="@+id/spinner1"
             android:layout_width="160dp"
             android:layout_height="30dp"
-            android:layout_marginTop="170dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:background="#3fffffff"/>
+            android:layout_marginTop="10dp"
+            android:background="#3fffffff" />
 
         <Spinner
             android:id="@+id/spinner2"
             android:layout_width="160dp"
             android:layout_height="30dp"
-            android:layout_marginTop="170dp"
+            android:layout_marginTop="10dp"
             android:background="#3fffffff"/>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <Spinner
             android:id="@+id/spinner3"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="210dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:background="#3fffffff"/>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             android:text="일정 정하기"
             android:textColor="#ffffff"
@@ -79,29 +72,30 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <Spinner
             android:id="@+id/spinner4"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:background="#3fffffff"
             />
     </LinearLayout>
+
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:gravity="bottom|right"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="확인"/>
+            android:text="확인"
+            android:textColor="#ffffff"
+            android:background="#6cfaf8f8"/>
     </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

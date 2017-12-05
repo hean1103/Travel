@@ -1,11 +1,13 @@
 package org.androidtown.travel;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
@@ -32,6 +34,15 @@ public class SelectActivity extends AppCompatActivity{
         setContentView(R.layout.activity_select);
         context = this;
         setView();
+
+        Button next = (Button) findViewById(R.id.ok);
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SelectActivity.this, ReccomActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setView() {
