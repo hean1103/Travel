@@ -4,6 +4,8 @@ import android.app.TabActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.TabHost;
 
 /**
@@ -31,9 +33,19 @@ public class TabsActivity extends TabActivity {
 
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu){
-//        getMenuInflater().inflate(R.menu.activity_tab,menu);
+//        getMenuInflater().inflate(R.menu.menu_main,menu);
 //        return true;
 //    }
 
-
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return true;
+    }
 }
+

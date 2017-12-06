@@ -42,5 +42,10 @@
             android:textSize="@dimen/string_medium"
             android:textColor="@color/gray"/>
     </LinearLayout>
+    <Button
+        android:id="@+id/bnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/find" />
 
 </LinearLayout>

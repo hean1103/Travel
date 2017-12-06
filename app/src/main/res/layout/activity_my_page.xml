@@ -4,16 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F8F8"
+    android:background="@drawable/coupons"
+    android:orientation="horizontal"
     tools:context="org.androidtown.travel.MyPageActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/activity_vertical_margin"
-        android:layout_marginRight="@dimen/activity_vertical_margin"
-        android:layout_weight="1"
-        android:scaleType="fitStart"
-        app:srcCompat="@drawable/my_page_without_ads" />
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="@dimen/activity_vertical_margin"-->
+            <!--android:layout_marginRight="@dimen/activity_vertical_margin"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="fitStart"-->
+            <!--app:srcCompat="@drawable/my_page_without_ads" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/coupons"
+            android:layout_marginTop="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="56dp"
+            android:background="@drawable/cou" />
+    </LinearLayout>
+
+
 </LinearLayout>
