@@ -24,8 +24,8 @@
 
         <Button
             android:id="@+id/coupons"
-            android:layout_marginTop="235dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginLeft="5dp"
             android:layout_width="390dp"
             android:layout_height="56dp"
             android:background="@drawable/cou" />

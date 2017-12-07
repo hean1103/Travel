@@ -59,7 +59,7 @@ public class SelectActivity extends AppCompatActivity{
         cityList.add("중랑구");
         cityList.add("수지구");
         cityList.add("성북구");
-        //종로구 선택시만 뜨게 해줘. subcity...
+
         subcityList.add("지역 전체");
         subcityList.add("인사동");
         subcityList.add("통인시장");

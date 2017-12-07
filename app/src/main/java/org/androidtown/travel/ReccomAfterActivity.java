@@ -15,7 +15,7 @@ public class ReccomAfterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recom);
+        setContentView(R.layout.activity_recom_after);
 
         Button ok_page = (Button) findViewById(R.id.ok_button);
         ok_page.setOnClickListener(new View.OnClickListener() {
@@ -26,11 +26,11 @@ public class ReccomAfterActivity extends AppCompatActivity {
             }
         });
 
-        Button modi_page = (Button)findViewById(R.id.modi_button);
+        Button modi_page = (Button) findViewById(R.id.modi_button);
         modi_page.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ReccomAfterActivity.this, CategoriedMapActivity.class);
+                Intent intent = new Intent(ReccomAfterActivity.this, DropMapActivity.class);
                 startActivity(intent);
             }
         });

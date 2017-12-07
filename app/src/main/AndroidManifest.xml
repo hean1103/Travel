@@ -26,6 +26,12 @@
         <activity android:name=".MapActivity" />
         <activity android:name=".AfterMapActivity" />
         <activity android:name=".ReccomActivity" />
+        <activity android:name=".ReccomAfterActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <action android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+        </activity>
         <activity android:name=".SelectActivity" >
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -49,10 +55,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".DropMapActivity">
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
+             <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
 
         </activity>
         <activity android:name=".MyPageActivity">
