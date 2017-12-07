@@ -41,6 +41,7 @@
         android:gravity="bottom|right">
 
         <Button
+            android:id="@+id/ok_button"
             android:layout_width="50dp"
             android:layout_height="21dp"
             android:background="#39ffffff"
@@ -49,6 +50,7 @@
             android:textColor="#ff0101" />
 
         <Button
+            android:id="@+id/modi_button"
             android:layout_width="50dp"
             android:layout_height="17dp"
             android:background="#39ffffff"
