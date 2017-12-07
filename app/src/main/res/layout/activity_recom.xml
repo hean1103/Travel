@@ -28,7 +28,8 @@
             android:text=":대한민국 > 서울 > 종로구"
             android:textSize="20dp" />
 
-        <ImageView
+        <Button
+            android:id="@+id/next"
             android:layout_width="65dp"
             android:layout_height="60dp"
             android:layout_gravity="right"

@@ -37,27 +37,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/after_paths"
-        android:gravity="bottom|right">
+        android:background="@drawable/after_paths">
 
         <Button
-            android:id="@+id/ok_button"
-            android:layout_width="50dp"
-            android:layout_height="21dp"
-            android:background="#39ffffff"
+            android:id="@+id/ok_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="결정"
-            android:layout_marginBottom="7dp"
-            android:textColor="#ff0101" />
+            android:background="#00ffffff"
+            android:textColor="#ff0101"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="50dp"/>
 
         <Button
-            android:id="@+id/modi_button"
-            android:layout_width="50dp"
-            android:layout_height="17dp"
-            android:background="#39ffffff"
-            android:layout_marginBottom="7dp"
+            android:id="@+id/modi_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="수정"
-            android:layout_marginRight="10dp"
-            android:textColor="#ff0101" />
+            android:textColor="#ff0101"
+            android:background="#00ffffff"
+            android:layout_marginTop="50dp"/>
+
+
     </LinearLayout>
 
 </LinearLayout>

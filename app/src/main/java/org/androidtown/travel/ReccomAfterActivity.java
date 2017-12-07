@@ -34,6 +34,5 @@ public class ReccomAfterActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

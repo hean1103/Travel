@@ -70,7 +70,7 @@ public class CategoriedMapActivity extends AppCompatActivity implements View.OnC
         else if(v.getId() == R.id.violetRadioBtn)    {mapImageView.setImageResource(R.drawable.map_violet);}
         else if(v.getId() == R.id.totalRadioBtn)    {mapImageView.setImageResource(R.drawable.total_category_map);}
         else if(v.getId() == R.id.optimize){
-            Intent intent = new Intent(CategoriedMapActivity.this, DropMapActivity.class);
+            Intent intent = new Intent(CategoriedMapActivity.this, ReccomAfterActivity.class);
             startActivity(intent);
         }
     }
