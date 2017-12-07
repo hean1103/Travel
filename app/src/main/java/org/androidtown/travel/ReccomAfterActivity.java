@@ -34,5 +34,24 @@ public class ReccomAfterActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button ok_page2 = (Button)findViewById(R.id.ok_button2);
+        ok_page2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ReccomAfterActivity.this, MissionActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button modi_page2 = (Button) findViewById(R.id.modi_button2);
+        modi_page2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ReccomAfterActivity.this, DropMapActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
